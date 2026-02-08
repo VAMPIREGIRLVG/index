@@ -2,7 +2,6 @@ from flask import Flask, render_template_string
 
 app = Flask(__name__)
 
-HTML = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -157,5 +156,6 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
